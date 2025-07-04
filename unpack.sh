@@ -40,8 +40,8 @@ if [[ "$COUNT_CPIO" == "1" ]]; then
     cpio_n="ramdisk.cpio"
 fi
 
-if [[ "$COUNT_CPIO" == "3" ]]; then
-    echo "Detected a multiple ramdisk images!"
+if [[ "$COUNT_CPIO" == "2" || "$COUNT_CPIO" == "3" ]]; then
+    echo "Detected multiple ramdisk images!"
     cpio_n="vendor_ramdisk_recovery.cpio"
 fi
 
