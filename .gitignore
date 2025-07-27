@@ -1,5 +1,5 @@
 # Let this directories and files be ignore by git
-ramdisk
-rec_ramdisk
-unpack_img
+RAMDISK
+RECOVERY
+BASE_IMG
 *.img
